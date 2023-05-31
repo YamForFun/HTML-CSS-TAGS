@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+    <style>
+        /* Element Selector */
+
+
+
+        /* Class Selector */
+
+        .classselector {
+            color: red;
+            background-color: blue;
+        }
+
+        /* Id Selector */
+
+        #idselector {
+            color: rgb(255, 255, 1);
+            background-color: rgb(31, 173, 234);
+        }
+
+        /* Group selector */
+
+        h4,
+        b {
+            color: darkgoldenrod;
+            background-color: aquamarine;
+        }
+
+        /* tags for fonts in CSS */
+
+        .font {
+            color: rgb(12, 58, 241);
+            font-size: 30px;
+            font-weight: bolder;
+            font-style: italic;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        /* Borders and Backgrounds in CSS */
+
+        .borderandbackground {
+            width: 300px;
+            height: 50px;
+            color: greenyellow;
+            background-color: darkgray;
+            border-width: 4px;
+            border-color: red;
+            border-style: solid;
+            border-radius: 3px;
+            text-align: center;
+            background-image: url('https://previews.123rf.com/images/neirfy/neirfy2210/neirfy221000037/192123978-save-the-green-planet-concept-with-green-fresh-sprouts.jpg');
+        }
+
+        /* Margin & Padding */
+
+        .marginpadding {
+            width: 50%;
+            height: px;
+            border: 2px solid purple;
+            border-radius: 8px;
+            padding-left: 30px;
+            margin: 30px;
+            box-sizing: border-box;
+            color: black;
+            background-color: white;
+        }
+
+        /* float-clear */
+
+        .float-clear {
+            border: 3px solid rgb(20, 61, 184);
+            border-radius: 3px;
+            padding: 15px;
+            background-color: rgb(206, 250, 235);
+        }
+
+        .fruits {
+            width: 50%;
+            border: 2px solid black;
+            background-color: coral;
+            margin: 10px;
+            padding: 5px;
+            float: left;
+        }
+
+        .computers {
+            width: 42%;
+            border: 2px solid black;
+            background-color: coral;
+            margin: 10px;
+            padding: 5px;
+            float: right;
+        }
+
+        .stationarys {
+            width: auto;
+            height: auto;
+            border: 2px solid black;
+            margin: 10px;
+            background-color: coral;
+            padding: 5px;
+            clear: both;
+        }
+
+        /* Pseudo selectors */
+
+        .pseudo {
+            width: auto;
+            background-color: burlywood;
+            border: 3px solid rgb(132, 132, 236);
+            margin-top: 20px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        #btn2 {
+            background-color: transparent;
+            border: none;
+        }
+
+        #btn3 {
+            text-decoration: none;
+            color: black;
+        }
+
+        .btn {
+            width: 100px;
+            padding: 5px;
+            background-color: bisque;
+            text-decoration: none;
+            border: 1px solid rgb(80, 203, 234);
+        }
+
+        #btn3:hover{background-color: cadetblue;}
+    </style>
+</head>
+
+<body>
+    <h2>
+        <center>
+            <p class="a" style="color: mediumpurple; background-color: chartreuse;">THIS IS CSS Tutorial</p>
+        </center>
+    </h2>
+
+    <hr>
+
+    <center>
+        <h3>CSS Selector</h3>
+    </center>
+
+    <!-- Element Selector -->
+
+    <p>This is a paragraph to describe element selector in CSS Style Sheet</p>
+
+
+    <!-- CSS Selector -->
+
+
+    <p class="classselector">This is a paragraph to describe classselector</p>
+
+    <p id="idselector">This is another paragraph to describe idselector</p>
+
+    <h4><b>
+            This is a paragraph to describe group selector
+        </b></h4>
+
+    <hr>
+
+    <!-- Fonts in CSS -->
+
+    <p class="font">Tags for fonts in CSS</p>
+
+    <hr>
+
+    <!-- Borders and background in CSS -->
+
+    <p class="borderandbackground">Borders and Backgrounds in CSS</p>
+
+    <hr>
+
+    <!-- Margin & Padding in CSS -->
+
+    <div class="marginpadding">
+        <h3>This is a paragraph to desbribe margin & padding</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis vitae quidem. Sequi fugiat velit
+        accusantium ipsa. Reprehenderit, earum nisi, sunt ex suscipit quis, ea sequi laudantium dolore fugiat impedit ab
+        quisquam molestiae commodi facilis perspiciatis maxime eveniet quia accusantium.
+    </div>
+
+    <div class="marginpadding">
+        <h3>This is 2 <sup>nd</sup> paragraph to desbribe margin & padding</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis vitae quidem. Sequi fugiat velit
+        accusantium ipsa. Reprehenderit, earum nisi, sunt ex suscipit quis, ea sequi laudantium dolore fugiat impedit ab
+        quisquam molestiae commodi facilis perspiciatis maxime eveniet quia accusantium.
+    </div>
+
+    <div class="marginpadding">
+        <h3>This is 3 <sup>rd</sup> paragraph to desbribe margin & padding</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis vitae quidem. Sequi fugiat velit
+        accusantium ipsa. Reprehenderit, earum nisi, sunt ex suscipit quis, ea sequi laudantium dolore fugiat impedit ab
+        quisquam molestiae commodi facilis perspiciatis maxime eveniet quia accusantium.
+    </div>
+
+    <hr>
+
+    <!-- Float & Claear -->
+
+    <div class="float-clear">
+
+        <div class="fruits">
+            <h3>Fruits</h3>
+            <p id="fruit" class="fruit">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit suscipit placeat omnis ea libero,
+                voluptas ad sunt saepe impedit incidunt esse repudiandae numquam quam consequuntur reiciendis hic.
+                Molestiae
+                impedit molestias, sapiente dolores dicta quis nihil cumque labore porro. Sed, consequuntur.
+            </p>
+        </div>
+        <div class="computers">
+            <h3>Computer</h3>
+            <p id="computer" class="computer">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit suscipit placeat omnis ea libero,
+                voluptas ad sunt saepe impedit incidunt esse repudiandae numquam quam consequuntur reiciendis hic.
+                Molestiae
+                impedit molestias, sapiente dolores dicta quis nihil cumque labore porro. Sed, consequuntur.
+            </p>
+        </div>
+        <div class="stationarys">
+            <h3>Stationary</h3>
+            <p id="stationary" class="stationary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit suscipit placeat omnis ea libero,
+                voluptas ad sunt saepe impedit incidunt esse repudiandae numquam quam consequuntur reiciendis hic.
+                Molestiae
+                impedit molestias, sapiente dolores dicta quis nihil cumque labore porro. Sed, consequuntur.
+            </p>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Pseudu selectors -->
+
+    <div class="pseudo">
+        <h3>This is a box to describe pseudo selectors</h3>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ab quisquam necessitatibus aliquam. Pariatur cum
+        nam quos placeat, omnis accusamus ea possimus officiis facilis ducimus in? Voluptas voluptatem libero nihil
+        harum amet quaerat aliquid! <br> <br>
+        <a href="" class="btn" id="btn2">Read more </a>   <button  class="btn"><a id="btn3"
+                href="https://www.google.com/" target="_blank"> Click on me </a></button>
+    </div>
+</body>
+
+</html>
